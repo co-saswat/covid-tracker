@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/nav_world_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/prompt_medium"
+            android:gravity="center"
+            android:text="Covid-19(Global Pandemic)\n Global Report"
+            android:textColor="@android:color/background_dark"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_total_case_world"
+            android:layout_gravity="center"
+            android:text="Total No of Cases"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:fontFamily="@font/poppins_medium"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_total_no_case_world"
+            android:layout_gravity="center"
+            android:text="8545566"
+            android:textSize="45dp"
+            android:textColor="@color/TotalCases"
+            android:fontFamily="@font/poppins_medium"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_total_death_world"
+            android:layout_gravity="center"
+            android:text="Total No of Death"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:fontFamily="@font/poppins_medium"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_total_no_death_world"
+            android:layout_gravity="center"
+            android:text="15248"
+            android:textSize="45dp"
+            android:textColor="@color/TotalDeath"
+            android:fontFamily="@font/poppins_medium"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_total_recovery_world"
+            android:layout_gravity="center"
+            android:text="Total No of Recovery"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:fontFamily="@font/poppins_medium"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_total_no_recovery_world"
+            android:layout_gravity="center"
+            android:text="254879"
+            android:textSize="45dp"
+            android:textColor="@color/TotalRecovery"
+            android:fontFamily="@font/poppins_medium"
+            />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_circular_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

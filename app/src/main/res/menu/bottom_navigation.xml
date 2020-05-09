@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_world"
+          android:icon="@drawable/baseline_public_black_18dp"
+          android:title="@string/nav_world"/>
+    <item android:id="@+id/nav_country"
+        android:icon="@drawable/baseline_flag_black_18dp"
+        android:title="@string/nav_country"/>
+    <item android:id="@+id/nav_states"
+        android:icon="@drawable/india"
+        android:title="@string/nav_states"/>
+    <item android:id="@+id/nav_help"
+        android:icon="@drawable/baseline_help_black_18dp"
+        android:title="@string/nav_help"/>
+</menu>

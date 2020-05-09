@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyCovid Application</string>
+    <string name="nav_country">Country</string>
+    <string name="nav_states">States</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_world">World</string>
+</resources>
